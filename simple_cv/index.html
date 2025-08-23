@@ -1,11 +1,107 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Single Page CV</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        min-height: 100vh;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        padding: 8px;
+        font-size: 15px;
+      }
+      .box {
+        padding: 2rem;
+        border: 2px solid #424242;
+        width: 100%;
+        height: 100%;
+      }
+      h4 {
+        padding: 15px 0;
+        color: rgb(31, 184, 31);
+      }
+      h5 {
+        color: #08c;
+      }
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+      hr {
+        background-color: black !important;
+        height: 3px;
+        border-radius: 30px;
+        border: 0;
+        outline: 0;
+        width: 100%;
+        max-width: 767px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <hr />
+        <h1 style="padding: 15px 0 0">Khalil Sarmy</h1>
+        <h4>Junior Frontend Developer</h4>
+        <p>
+          123 Your Street <br />
+          Your City, ST 12345 <br />
+          (123) 456-7890 <br />
+          no_reply@example.com
+        </p>
+      </div>
+      <div class="container">
+        <h4>Skills</h4>
+        <p>
+          HTML, CSS, JavaScript, Accessbility, Figma to Design, Responsive Web
+          Design, Technical Writing, Presentation
+        </p>
+      </div>
+      <div class="container">
+        <h4>Education</h4>
+        <h5>School Name, Location - Degree</h5>
+        <p>
+          Month 20xx to Month 20xx <br />
+          List of exciting things you did at University
+        </p>
+      </div>
+      <div class="container">
+        <h4>Experience</h4>
+        <h5>Company Name, Location - Job Title</h5>
+        <p>Month 20xx to Month 20xx</p>
+        <ul style="margin: 10px 0px 10px 15px; font-size: 15px">
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+        <h5 style="margin-top: 15px">Company Name, Location - Job Title</h5>
+        <p>Month 20xx to Month 20xx</p>
+        <ul style="margin: 10px 0px 10px 15px; font-size: 15px">
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+      </div>
+      <div class="container">
+        <h4>Accross the Internet</h4>
+        <p>Add your LinkedIn, GitHub profile links</p>
+      </div>
+    </div>
+  </body>
 </html>
