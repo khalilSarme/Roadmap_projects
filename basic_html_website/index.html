@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic HTML website</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  <meta name="description" content="This is a simple website template using html5">
+  <meta name="author" content="Khalil Sarmy">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <span class="box" style="display: inline-block;height: 36px; width: 36px; background: #2b2b2b; border-radius: 10px;"></span>
+          Your Name
+        </a>
+        <div class="links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Articles</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container-fluid">
+        <h1>Frontend Developer</h1>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <main>
+    <div class="container-fluid _main_">
+      <section class="projects">
+        <h2 class="pa-3">Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Weather App</li>
+          <li>To Do List App</li>
+        </ul>
+      </section>
+      <section class="work">
+        <div class="we pa-3">
+          <h2>Work Experience</h2>
+          <h5>roadmap.sh</h5>
+          <p>
+            Solved all the frontend projects
+          </p>
+          <a href="">Visit my profile</a>
+        </div>
+        <div class="osw pa-3">
+          <h2>OpenSource work</h2>
+          <p>
+            Contributed to 50 OpenSource projects made by own projects with 200 GitHub Stars
+          </p>
+        </div>
+      </section>
+      <section class="education pa-3">
+        <h2>Education</h2>
+        <p>
+          Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions
+        </p>
+        <ul style="margin-left: 5px;">
+          <li>OOP</li>
+          <li>Algorithmis & Data structure</li>
+          <li>Web Engineering</li>
+          <li>AI</li>
+          <li>Human Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>DBMSs</li>
+          <li>Distributed DBSs</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <hr>
+  <footer>
+    <div class="pa-3">
+      <h2>Reviews from my Teachers</h2>
+      <div class="carousel">
+        <div class="card pa-3">
+          <p>
+            John Doe was a brilliant student; alway stood out whit his assignment
+          </p>
+        </div>
+        <div class="card pa-3">
+          <p>
+            John Doe was a brilliant student; alway stood out whit his assignment
+          </p>
+        </div>
+        <div class="card pa-3">
+          <p>
+            John Doe was a brilliant student; alway stood out whit his assignment
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p style="padding: 2rem 18px;text-align: center">
+        © all rights reserved <span id="date"></span>
+        <script>
+          window.date.innerText = new Date().getFullYear()
+        </script>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
