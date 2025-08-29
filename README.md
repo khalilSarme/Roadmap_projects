@@ -10,7 +10,7 @@
 
 #### Live_Demo : "https://khalilsarme.github.io/Roadmap_projects/simple_cv/"
 
-### Basic_HTML_Website: "https://roadmap.sh/projects/basic-html-website"
+#### Basic_HTML_Website: "https://roadmap.sh/projects/basic-html-website"
 
-### Live_Demo : "https://khalilSarme.github.io/Roadmap_projects/basic_html_website/"
+#### Live_Demo : "https://khalilSarme.github.io/Roadmap_projects/basic_html_website/"
 
